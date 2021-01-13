@@ -47,6 +47,8 @@ public class Tabuleiro extends JFrame{
 		c.weightx = 1.0;
 		c.weighty = 1.0;
 		c.fill = GridBagConstraints.BOTH;
+		c.ipadx = 10;
+		c.ipady = 10;
 		getContentPane().setLayout(new GridBagLayout());
 	}
 
@@ -66,12 +68,11 @@ public class Tabuleiro extends JFrame{
 				
 				c.gridx = i;
 				c.gridy = j;
-				c.ipadx = 10;
-				c.ipady = 10;
 				JLabel lbl = new JLabel(posicoes[indicePosicoes], JLabel.CENTER);
 				lbl.setBackground(corFundo);
 				lbl.setForeground(corFrente);
 				lbl.setOpaque(true);
+				//lbl.setBorder(new LineBorder(Color.blue));
 				lbl.setFont(fonte);
 				getContentPane().add(lbl, c);
 				
