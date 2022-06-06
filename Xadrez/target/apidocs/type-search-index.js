@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"modelo","l":"ConjuntoDePecas"},{"p":"modelo.enums","l":"Cor"},{"p":"modelo","l":"Jogador"},{"p":"modelo","l":"Jogo"},{"p":"modelo","l":"Peca"},{"p":"modelo.enums","l":"Posicao"},{"p":"<Unnamed>","l":"Principal"},{"p":"visao","l":"Tabuleiro"},{"p":"modelo.enums","l":"TipoPeca"},{"p":"controle","l":"Util"}]
