@@ -27,7 +27,8 @@ public class Tabuleiro extends JFrame{
 		this.jogo = j;
 		j.situacaoDoJogo();
 		iniciaComponentes();
-		iniciaCampos();
+		//iniciaCampos();
+		testaImagens();
 		configJanela();
 	}
 	
@@ -65,7 +66,7 @@ public class Tabuleiro extends JFrame{
 		
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {
-				
+
 				c.gridx = i;
 				c.gridy = j;
 				JLabel lbl = new JLabel(posicoes[indicePosicoes], JLabel.CENTER);
@@ -75,15 +76,15 @@ public class Tabuleiro extends JFrame{
 				//lbl.setBorder(new LineBorder(Color.blue));
 				lbl.setFont(fonte);
 				getContentPane().add(lbl, c);
-				
+
 				alternaCores();
-				
+
 				indicePosicoes++;
 			}
 			alternaCores();
 		}
 		
-		//testaImagens();
+		testaImagens();
 		
 		
 		
@@ -95,7 +96,7 @@ public class Tabuleiro extends JFrame{
 		JLabel teste = new JLabel();
 		teste.setBackground(new Color(102,51,0));
 		teste.setOpaque(true);
-		teste.setIcon(new ImageIcon("imagens/rei preta.png"));
+		teste.setIcon(new ImageIcon("imagens/rei p.png"));
 		//teste.setBorder(new LineBorder(Color.black));
 		getContentPane().add(teste, c);
 		
@@ -104,7 +105,7 @@ public class Tabuleiro extends JFrame{
 		JLabel teste2 = new JLabel();
 		teste2.setBackground(Color.white);
 		teste2.setOpaque(true);
-		teste2.setIcon(new ImageIcon("imagens/rainha preta.png"));
+		teste2.setIcon(new ImageIcon("imagens/rainha p.png"));
 		//teste2.setBorder(new LineBorder(Color.black));
 		getContentPane().add(teste2, c);
 		
@@ -114,7 +115,7 @@ public class Tabuleiro extends JFrame{
 		teste3.setBackground(new Color(102,51,0));
 		teste3.setBackground(Color.gray);
 		teste3.setOpaque(true);
-		teste3.setIcon(new ImageIcon("imagens/torre preta.png"));
+		teste3.setIcon(new ImageIcon("imagens/torre p.png"));
 		//teste3.setBorder(new LineBorder(Color.black));
 		getContentPane().add(teste3, c);
 	}
