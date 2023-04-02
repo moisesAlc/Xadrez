@@ -1,6 +1,6 @@
-package modelo;
+package main.java.modelo;
 
-import modelo.enums.Cor;
+import main.java.modelo.enums.Cor;
 
 public class Jogador {
 

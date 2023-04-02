@@ -1,6 +1,7 @@
-import modelo.Jogo;
-import modelo.enums.*;
-import visao.Tabuleiro;
+package main.java;
+
+import main.java.modelo.Jogo;
+import main.java.visao.Tabuleiro;
 
 public class Principal {
 

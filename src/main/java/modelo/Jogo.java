@@ -1,7 +1,7 @@
-package modelo;
+package main.java.modelo;
 
 import java.util.ArrayList;
-import modelo.enums.Cor;
+import main.java.modelo.enums.Cor;
 
 public class Jogo {
 

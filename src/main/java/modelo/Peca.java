@@ -1,10 +1,10 @@
-package modelo;
+package main.java.modelo;
 
 import javax.swing.ImageIcon;
 
-import modelo.enums.Cor;
-import modelo.enums.Posicao;
-import modelo.enums.TipoPeca;
+import main.java.modelo.enums.Cor;
+import main.java.modelo.enums.Posicao;
+import main.java.modelo.enums.TipoPeca;
 
 public class Peca {
 	

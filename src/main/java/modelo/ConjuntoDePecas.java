@@ -1,10 +1,10 @@
-package modelo;
+package main.java.modelo;
 
 import java.util.ArrayList;
 
-import modelo.enums.Cor;
-import modelo.enums.Posicao;
-import modelo.enums.TipoPeca;
+import main.java.modelo.enums.Cor;
+import main.java.modelo.enums.Posicao;
+import main.java.modelo.enums.TipoPeca;
 
 /* Classe que simbolizará o conjunto de peças de um determinado Jogador */
 

@@ -1,4 +1,4 @@
-package visao;
+package main.java.visao;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -7,12 +7,10 @@ import java.awt.GridBagLayout;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.LineBorder;
 import javax.swing.JLabel;
 
-import modelo.Jogo;
-import modelo.enums.Posicao;
+import main.java.modelo.Jogo;
+import main.java.modelo.enums.Posicao;
 
 public class Tabuleiro extends JFrame{
 

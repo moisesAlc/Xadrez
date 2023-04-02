@@ -1,8 +1,8 @@
-package controle;
+package main.java.controle;
 
 import java.util.ArrayList;
 
-import modelo.Jogador;
+import main.java.modelo.Jogador;
 
 public class Util {
 	

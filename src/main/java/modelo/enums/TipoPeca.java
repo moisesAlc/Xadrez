@@ -1,4 +1,4 @@
-package modelo.enums;
+package main.java.modelo.enums;
 
 public enum TipoPeca {
 	PEAO ("peão"),
